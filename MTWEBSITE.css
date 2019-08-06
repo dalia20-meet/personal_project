@@ -1,0 +1,32 @@
+body{
+	background-color: #ccccff;
+	color:white;
+}
+p{	font-size:30px;
+	text-align:center;
+    position:relative;
+    left:70%;
+    transform:translateX(-55%);
+    
+    width: 60%;
+}
+img{
+	position: absolute;
+	top: 10%;
+	float: left;
+	left:2%;
+}
+a{font-size:30px;
+	text-align:center;
+    position:relative;
+    left:56%;
+    transform:translateX(-55%);
+    
+    width: 60%;}
+
+iframe{position:absolute;
+	bottom:2%;
+	left:56%;
+}    
+
+

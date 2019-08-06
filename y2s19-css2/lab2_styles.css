@@ -1,0 +1,64 @@
+*{
+    text-align:center;
+}
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 42pt;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: blue;
+    opacity: .5;
+}
+
+p {
+    color: green;
+    font-size: 24pt;
+    text-align:center;
+    background-color: lightgreen;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    opacity: .5;
+    width: 60%;
+}
+
+a {
+    color:red;
+    background-color: pink;
+    opacity: .5;
+}
+
+span {
+	background-color: yellow;
+    opacity: 1;	
+}
+
+form {
+	height: 200px;
+	width: 700px;
+	background-color: orange;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    opacity: .9;	
+}
+
+input {
+	background-color: purple;
+    opacity: 1;
+}
+
+div {
+	height: 100px;
+	width: 400px;
+	background-color: blue;
+    position:relative;
+    left:50%;
+    top:30%;
+    transform:translateX(-50%);
+    opacity: .7;
+    	
+}

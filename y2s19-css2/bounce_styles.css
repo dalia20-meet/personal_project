@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background: #4DC9CC;
+}
+
+.header {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 32pt;
+    padding: 10px;
+}
+
+svg {
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+    animation-name: bounce;
+    animation-duration: 3s;
+}
+@keyframes bounce {
+    from {background-color: red; opacity: 0.1;transform: scale(0.1);}
+    to {background-color: yellow;opacity: 1;transform: scale(1);}
+}
+
+

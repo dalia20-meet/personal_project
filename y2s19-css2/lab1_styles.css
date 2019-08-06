@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 42pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-size: 24pt;
+
+}
+
+.best:hover{
+  color: yellow;
+}
+
+
+
+a {
+    color:red;
+}
